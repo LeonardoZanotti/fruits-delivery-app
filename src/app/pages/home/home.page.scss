@@ -1,0 +1,30 @@
+.header-ios,
+.header-md {
+  .main-toolbar {
+    --background: transparent !important;
+    --border-width: 0 !important;
+    height: 80px !important;
+    --min-height: 105px !important;
+    margin: 0;
+  }
+
+  ion-title {
+    padding-inline-start: 0;
+    font-family: Montserrat_Regular;
+    font-weight: 200;
+    padding-left: 30px;
+    color: #e5e5e5;
+    font: size 11px;
+  }
+}
+
+.small-toolbar {
+  --background: transparent !important;
+  text-align: right !important;
+  margin-right: 20px;
+
+  .icon {
+    font-size: 26px;
+    color: grey;
+  }
+}

@@ -1,11 +1,11 @@
 ion-content {
   --ion-background-color: #ffffff;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 
   .background-pic {
     height: 100vh;
     width: 100%;
-    background: url('../../assets/background_pc-signup.png');
+    background: url("../../../assets/background_pc-signup.png");
     background-position: 30%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -38,15 +38,12 @@ ion-content {
           ion-card-title {
             color: #242020;
             font-size: 30px;
-            font-weight: 400;
           }
 
           ion-card-subtitle {
             color: #5e5e5e;
             font-size: 14px;
             font-weight: 400;
-            max-width: 250px;
-            display: inline-block;
 
             strong {
               text-decoration: none;
@@ -76,13 +73,13 @@ ion-content {
               --padding-start: 30px;
               width: 247px;
               height: 42px;
-              color: #555B5B;
+              color: #555b5b;
             }
           }
 
           a {
             text-decoration: none;
-            color: #589B3F;
+            color: #589b3f;
             font-weight: 300;
             font-size: 13px;
           }
